@@ -1,7 +1,7 @@
 resource "google_container_cluster" "audio" {
   provider = google-beta
 
-  name        = "audo-cluster"
+  name        = "audio-cluster"
   description = "GKE Cluster for self-hosting audio models"
   location    = var.region
 
